@@ -2,7 +2,8 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Switchung to PyQt based backend due to issues with the default backend on Fedora
-plt.switch_backend('QtAgg')
+# plt.switch_backend('QtAgg')
+# ^ Uncomment on Fedora
 
 # Importing an image
 img = cv2.imread('../images/image3.JPG')

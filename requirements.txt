@@ -1,3 +1,4 @@
 opencv-python
 matplotlib
-PyQt6
+# PyQt6 
+# ^ Uncomment on Fedora
