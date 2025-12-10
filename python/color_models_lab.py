@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # ^ Uncomment on Fedora
 
 # Importing an image
-img = cv2.imread('../images/image3.JPG')
+img = cv2.imread('../images/image.jpg')
 
 # Converting to different color models
 rgb_image = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)

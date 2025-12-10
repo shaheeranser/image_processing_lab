@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # plt.switch_backend('QtAgg')
 # ^ Uncomment on Fedora
 
-img = cv2.imread('../images/image1.JPG') # The folder isn't pushed to the repo
+img = cv2.imread('../images/image.jpg') # The folder isn't pushed to the repo
 
 cv2.imshow('Image using OpenCV', img)
 cv2.waitKey(0)
